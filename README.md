@@ -23,11 +23,15 @@ The tools used were JavaScript, HTML, CSS and bootstrap.  A web page was built w
 The dynamic web page allowed filtering based on date, city, state, county and shape.
 ![web page](https://github.com/jcsargis00/UFOs/blob/main/static/images/webpage.PNG)
 # How to perform a search
-Using the filter search, on the LHS of the web page, a user can filter by one or all of the search criteria shown. For example, if you search by "Date", you will see that the table updated to show the reported sightings that was recorded for that specific city.
+Using the filter search, on the LHS of the web page, a user can filter by one or all of the search criteria shown. For example, if you search by "Date", you will see that the table updated to show the reported sightings that was recorded for that specific date.
 #
 ![filter search](https://github.com/jcsargis00/UFOs/blob/main/static/images/filtersearch.PNG)
 #
-For example, to search on a sighting specifically on 1/1/2010 in Bonita, CA, US, with shapes = light, type in this information in the filter boxes, as shown below.
+The search on 1/1/2010 returns this page of results:
+#
+![date filter](https://github.com/jcsargis00/UFOs/blob/main/static/images/filterpage.PNG)
+#
+To search on a sighting specifically on 1/1/2010 in Bonita, CA, US, with shapes = light, type in this information in the filter boxes, as shown below.
 #
 ![filter box](https://github.com/jcsargis00/UFOs/blob/main/static/images/bonita.PNG)
 #
