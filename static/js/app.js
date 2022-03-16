@@ -45,7 +45,7 @@ function updateFilters() {
     else {
       delete filters[filterId];
     }
-    updateTable();
+   
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
@@ -65,11 +65,11 @@ function updateFilters() {
     });
   
     // 10. Finally, rebuild the table using the filtered data
-    buildTable(filteredData);
+    buildTable(filteredData)
   }
       
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll("input").on("change", updateFilters);
+  d3.selectAll("input").on("change", updateFilters)
   
   // Build the table when the page loads
   buildTable(tableData);
