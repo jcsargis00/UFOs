@@ -24,7 +24,17 @@ The dynamic web page allowed filtering based on date, city, state, county and sh
 ![web page](https://github.com/jcsargis00/UFOs/blob/main/static/images/webpage.PNG)
 # How to perform a search
 Using the filter search, on the LHS of the web page, a user can filter by one or all of the search criteria shown. For example, if you search by "Date", you will see that the table updated to show the reported sightings that was recorded for that specific city.
+#
 ![filter search](https://github.com/jcsargis00/UFOs/blob/main/static/images/filtersearch.PNG)
+#
+For example, to search on a sighting specifically on 1/1/2010 in Bonita, CA, US, with shapes = light, type in this information in the filter boxes, as shown below.
+#
+![filter box](https://github.com/jcsargis00/UFOs/blob/main/static/images/bonita.PNG)
+#
+To get this search result:
+#
+![just one choice](https://github.com/jcsargis00/UFOs/blob/main/static/images/bonitatable.PNG)
+#
 ## Summary
 JavasScript and the ES6 update from 2015 make complex, interactive form building easier.
 This comes in handy for building online shopping websites with many options for shoppers,
