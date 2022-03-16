@@ -7,8 +7,7 @@ This module creates dynamic content with JavaScript, HTML, CSS, and bootstrap.
 #
 ## Overview
 #
-The purpose of this project is to create an interactive web page for Dana's users to parse the data
-around UFO sightings.
+The purpose of this project is to create an interactive web page for Dana's users to parse the data around UFO sightings.
 #
 ### Methodology
 #
@@ -23,16 +22,24 @@ The tools used were JavaScript, HTML, CSS and bootstrap.  A web page was built w
 #
 The dynamic web page allowed filtering based on date, city, state, countyr and shape.
 ![web page](https://github.com/jcsargis00/UFOs/blob/main/static/images/webpage.PNG)
-How to perform a search, with images
+# How to perform a search
+Using the filter search, on the LHS of the web page, a user can filter by one or all of the search criteria shown. For example, if you search by "Date", you will see that the table updated to show the reported sightings that was recorded for that specific city.
+![filter search](https://github.com/jcsargis00/UFOs/blob/main/static/images/filtersearch.PNG)
 ## Summary
 JavasScript and the ES6 update from 2015 make complex, interactive form building easier.
 This comes in handy for building online shopping websites with many options for shoppers,
 tracking large data sets for weather (NSIDC) or large and diverse datasets requiring 
 dynamic tables (NEON).
 ### Drawbacks
-JavasScript is syntax intensive and case sensitive.  The coding requires statements and expressions and
-code blocks that are different from other programming languages, requiring coders to memorize rules and 
-practice the coding a lot.  The code can also be difficult to read, since it can all be one line.  Javascript
-also requires DevTools console to test the code.
-
-###Additional Recommendations
+#
+* The search fields are case sensitive.  If the user enters partial information, no data will be returned.
+* There is no enter button, to tell the user the table will run a query and return results
+* There is no information about what data is included, how current the site is, or information about how to use the filter windows.
+#
+### Suggestions for follow on work
+#
+Additional Recommendations
+* Help facilities to suggest what to input
+* Drop down boxes for states and countries, and states
+* A map showing what areas data about sightings exists
+* Information about the sources of data and latest findings
