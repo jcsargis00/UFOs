@@ -20,7 +20,7 @@ The tools used were JavaScript, HTML, CSS and bootstrap.  A web page was built w
 #
 ### Results
 #
-The dynamic web page allowed filtering based on date, city, state, countyr and shape.
+The dynamic web page allowed filtering based on date, city, state, county and shape.
 ![web page](https://github.com/jcsargis00/UFOs/blob/main/static/images/webpage.PNG)
 # How to perform a search
 Using the filter search, on the LHS of the web page, a user can filter by one or all of the search criteria shown. For example, if you search by "Date", you will see that the table updated to show the reported sightings that was recorded for that specific city.
