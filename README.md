@@ -1,5 +1,6 @@
 # UFOs - A web page for in-depth analysis of UFO sightings
 #
+![too hot to handle](https://github.com/jcsargis00/UFOs/blob/main/static/images/ufo.PNG)
 ## Analysis
 #
 This module creates dynamic content with JavaScript, HTML, CSS, and bootstrap.
